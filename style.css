@@ -1,0 +1,33 @@
+.container{
+position: relative;
+width: 900px;
+height: 450px;
+background: #FEEDBC;
+}
+.top{
+  width: 850px;
+  background-color: white;
+  border: 0px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+header{
+  color: orange;
+}
+.tag{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.card{
+  height: 500px;
+  width: 900px;
+  background-color: black;
+}
